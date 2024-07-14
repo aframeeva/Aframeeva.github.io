@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h1 {
+            margin: 0;
+            padding: 20px 0;
+            font-size: 24px;
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .card p {
+            padding: 0 20px 20px;
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Фото">
+        <h1>Имя Фамилия</h1>
+        <p>Профессия</p>
+        <p>Контактная информация</p>
+    </div>
+</body>
+</html>
